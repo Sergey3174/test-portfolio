@@ -2,7 +2,7 @@
 
 "PortfolioOverview" с функциями управления портфелем и обновлениями данных в реальном времени.
 
-Использованные библиотеки можно sass, react-redux, @reduxjs/toolkit, frame-motion.
+Использованные библиотеки sass, react-redux, @reduxjs/toolkit, frame-motion.
 
 Запуск приложения
 
