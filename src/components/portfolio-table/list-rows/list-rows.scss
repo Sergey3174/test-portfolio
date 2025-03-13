@@ -1,0 +1,33 @@
+.list-rows__container {
+    width: 100%;
+}
+
+.table-row{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 0;
+    border-radius: 10px;
+    
+    &:hover{
+        background-color: rgba(133, 133, 133, 0.527)
+    }
+}
+
+.table-row-item{
+    width: 100%;
+    text-align: center;
+}
+
+.red{
+    color: red;
+}
+
+.green {
+    color: green;
+    &::before{
+        content: '+';
+    }
+}

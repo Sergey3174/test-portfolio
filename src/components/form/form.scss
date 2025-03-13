@@ -1,0 +1,33 @@
+.form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.list-coin{
+    height: 210px;
+    overflow-y: scroll;
+}
+
+.add-block{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.current-coin{
+    justify-content: center;
+    display: flex;
+    gap:10px;
+}
+
+.add-block__buttons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 40px;
+    margin-top: 20px;
+}

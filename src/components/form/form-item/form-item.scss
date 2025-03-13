@@ -1,0 +1,22 @@
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+
+    span{
+        flex-basis: 30%;
+    }
+    
+}
+
+.plus{
+    color: green;
+    &::before{
+        content: '+';
+    }
+}
+.minus{
+    color: red;
+}
